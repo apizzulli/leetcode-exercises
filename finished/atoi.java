@@ -1,7 +1,5 @@
 class Atoi {
-    public static void main(String[] args) {
-        myAtoi("-91283472332");
-    }
+   
     public static int myAtoi(String s) {
         boolean isNegative= false;
         int startOfInt = 0;
