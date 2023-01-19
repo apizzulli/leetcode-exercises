@@ -1,4 +1,3 @@
-package finished;
 class Solution {
     public static void main(String[] args) {
         divide(-2147483648, -1);
