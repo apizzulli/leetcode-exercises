@@ -2,9 +2,7 @@ import java.util.*;
 
 import javax.xml.transform.Templates;
  class Solution {
-    public static void main(String args[]){
-        lengthOfLongestSubstring("au");
-    }
+   
     public static int lengthOfLongestSubstring(String s) {
         List<Character> substring = new ArrayList<>(); 
         int maxLength=0;
