@@ -9,24 +9,24 @@ class ListNode {
 }
 
 class Solution {
-    public static void main(String[] args) {
-        ListNode one = new ListNode();
-        one.val = 1;
-        // ListNode two = new ListNode();
-        // two.val =2;
-        // one.next=two;
-        // ListNode three = new ListNode();
-        // three.val = 3;
-        // ListNode four = new ListNode();
-        // four.val = 4;
-        // ListNode five = new ListNode();
-        // five.val = 5;
-        // one.next = two;
-        // two.next=three;
-        // three.next = four;
-        // four.next= five;
-         removeNthFromEnd(one, 1);
-    }
+    // public static void main(String[] args) {
+    //     ListNode one = new ListNode();
+    //     one.val = 1;
+    //     // ListNode two = new ListNode();
+    //     // two.val =2;
+    //     // one.next=two;
+    //     // ListNode three = new ListNode();
+    //     // three.val = 3;
+    //     // ListNode four = new ListNode();
+    //     // four.val = 4;
+    //     // ListNode five = new ListNode();
+    //     // five.val = 5;
+    //     // one.next = two;
+    //     // two.next=three;
+    //     // three.next = four;
+    //     // four.next= five;
+    //      removeNthFromEnd(one, 1);
+    // }
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         System.out.println("BEFORE: ");

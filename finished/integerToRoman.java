@@ -1,7 +1,7 @@
  class IntToRoman {
-    public static void main(String[] args) {
-        intToRoman(1994);
-    }
+    // public static void main(String[] args) {
+    //     intToRoman(1994);
+    // }
     public static String intToRoman(int num) {
         int pow = 3;
         String romanNums = "";
