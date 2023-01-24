@@ -1,7 +1,7 @@
 class Solution {
-    public static void main(String[] args) {
-        divide(-2147483648, -1);
-    }
+    // public static void main(String[] args) {
+    //     divide(-2147483648, -1);
+    // }
     public static int divide(int dividend, int divisor) {
         boolean negate = false;
         boolean divisorNeg = false;

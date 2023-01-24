@@ -1,9 +1,9 @@
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
 
 class Solution {
-    public static void main(String[] args) {
-        trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
-    }
+    // public static void main(String[] args) {
+    //     trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
+    // }
     public static int trap(int[] height) {
         int finalHeight = 0, currentVal = 0 , currentMax = 0, maxIndex = 0, runningSum = 0;
         boolean finished = false, counting = false;

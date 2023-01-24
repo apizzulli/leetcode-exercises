@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 import java.util.*;
 class Solution {
-    public static void main(String[] args) {
-        groupAnagrams(new String[]{"ab"});
-    }
+    // public static void main(String[] args) {
+    //     groupAnagrams(new String[]{"ab"});
+    // }
     public static List<List<String>> groupAnagrams(String[] strs) {
         boolean passed = true;
         List<List<String>> listsToReturn = new ArrayList<>();

@@ -1,9 +1,9 @@
 import java.util.*;
 
 class Solution {
-    public static void main(String[] args) {
-        letterCombinations("234");
-    }
+    // public static void main(String[] args) {
+    //     letterCombinations("234");
+    // }
     public static List<String> letterCombinations(String digits) {
         Map<Character, ArrayList<String>> digsToString = new HashMap<Character, ArrayList<String>>();
         //List<String> allCharsForString = new ArrayList<>();
